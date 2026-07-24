@@ -72,5 +72,3 @@ def predict(data: StudentData):
     return PredictionResponse(
         predicted_mental_health_score=round(float(prediction), 2)
     )
-
-
