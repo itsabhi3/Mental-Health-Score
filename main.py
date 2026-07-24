@@ -43,7 +43,7 @@ class PredictionResponse(BaseModel):
 
 @app.get('/')
 def greet():
-    return {"Welcome to ML Classes"}
+    return {"Welcome to ML Model"}
 
 
 
